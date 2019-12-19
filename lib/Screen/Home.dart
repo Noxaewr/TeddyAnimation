@@ -44,6 +44,23 @@ class _HomeState extends State<Home> {
                 ),
                 height: 200,
               ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(left: 20.0, right: 20.0, top: devicePadding.top + 20.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    new BoxShadow(
+                      spreadRadius: 2.0, 
+                      color: Colors.white.withOpacity(0.5),
+                      offset: new Offset(5.0, 5.0),
+                    )
+                  ],
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20)
+                ),
+                height: 200,
+              ),
             )
           ],
         ),
